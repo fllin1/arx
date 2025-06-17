@@ -42,7 +42,7 @@ const downloadPDF = async () => {
 
   try {
     const options = {
-      margin: 0,
+      margin: [10, 0, 10, 0], // [top, right, bottom, left] en mm
       filename: "CV_Florent_Lin.pdf",
       image: { type: "jpeg", quality: 0.98 },
       html2canvas: {
@@ -55,7 +55,12 @@ const downloadPDF = async () => {
         format: "a4",
         orientation: "portrait",
       },
-      pagebreak: { mode: ["avoid-all", "css", "legacy"] },
+      pagebreak: { 
+        mode: ["css", "legacy"], // Ajout de "legacy" pour meilleur support
+        before: '.page-break-before',
+        after: '.page-break-after',
+        avoid: ['.experience-item', '.cv-section h2', '.experience-header', '.avoid-page-break']
+      },
     };
 
     await html2pdf().set(options).from(cvContent.value).save();

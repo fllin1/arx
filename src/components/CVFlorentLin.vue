@@ -13,7 +13,7 @@
               <i class="fa fa-linkedin"></i> linkedin.com/in/florentlin/
             </span>
             <span class="contact-item">
-              <i class="fa fa-envelope"></i> linflorent@hotmail.fr
+              <i class="fa fa-envelope"></i> 1florentlin@gmail.com
             </span>
           </div>
           <div class="contact-row">
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="subtitle">
-          <strong>Ingénieur en Data Sciences - l'ENSAE Paris</strong>
+          <strong>Consultant en Data Sciences - Aubay Data & AI</strong>
         </div>
       </header>
 
@@ -39,7 +39,7 @@
           <div class="experience-header">
             <strong>ENSAE Paris - IP Paris</strong>
             <span class="location">Palaiseau, France</span>
-            <span class="date">Depuis Septembre 2021</span>
+            <span class="date">Septembre 2021 - Juin 2024</span>
           </div>
           <div class="subtitle-italic">
             Cycle d'ingénieur (Probabilités, Statistiques, Machine Learning,
@@ -50,7 +50,7 @@
             Linéaires, Optimisation Avancée, Économétrie<br />
             Deep Learning, Natural Language Processing, Machine Learning,
             Transport Optimal Statistique, Apprentissage en Ligne et
-            Aggregation, Infrastructures et systèmes logiciels
+            Agrégation, Infrastructures et systèmes logiciels
           </div>
         </div>
 
@@ -75,12 +75,32 @@
 
         <div class="experience-item">
           <div class="experience-header">
-            <strong>Aubay</strong>
+            <strong>Aubay Data & AI</strong>
             <span class="location">Boulogne-Billancourt, France</span>
-            <span class="date">Août 2024 - Novembre 2024</span>
+            <span class="date">Depuis Janvier 2025</span>
           </div>
           <div class="subtitle-italic">
-            Stage Data Scientist - Machine Unlearning
+            Consultant Data Scientist - Contrat annuel chez SNCF Réseau
+          </div>
+          <div class="description">
+            - Référent Data Science et ML pour l'optimisation de la maintenance prédictive des infrastructures ferroviaires<br/>
+            - Ingénierie de données complexes : traitement et harmonisation de datasets temporels et géospatiaux multi-sources avec gestion des valeurs manquantes et des incohérences inter-fournisseurs<br/>
+            - Utilisation d'algorithmes supervisés classqiues (XGBoost, Random Forest, Decision Tree, Régression Linéaire) pour la prédiction de l'apparition de défauts sur les voies ferrées<br/>
+            - Optimisation de modèles sur données déséquilibrées par techniques de rééchantillonnage (SMOTE), ajustement des seuils de classification et métriques adaptées (Recall, F1-Score, ROC-AUC)<br/>
+            - Calcul de matrices de corrélation croisée, algorithmes de recalage géospatial pour la correction de biais spatiaux<br/>
+            - Création d'outils de visualisation interactive (dashboards) pour l'aide à la décision des équipes maintenance<br/>
+            - Vulgarisation d'analyses statistiques, production de rapports de synthèse et recommandations opérationnelles
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <strong>Aubay</strong>
+            <span class="location">Boulogne-Billancourt, France</span>
+            <span class="date">Août 2024 - Décembre 2024</span>
+          </div>
+          <div class="subtitle-italic">
+            Stage en Data Science - Machine Unlearning
           </div>
           <div class="description">
             - Rédaction d'un état de l'art sur le désapprentissage des LLMs
@@ -122,14 +142,14 @@
           <div class="subtitle-italic">
             Projet académique en Machine Learning
             <i class="fa fa-github"></i>
-            <a href="https://github.com/fllin1/aml_mab" target="_blank">Link</a>
+            <a href="https://github.com/fllin1/aml_mab" target="_blank">Lien</a>
           </div>
           <div class="description">
             - Documentation approfondie de l'état de l'art et identification
             d'une base de données appropriée à la problématique<br />
             - Implémentation puis mise en œuvre de divers algorithmes de Bandit
             Manchot Multi-Bras via apprentissage en ligne<br />
-            - Évaluation des performances des algorithmes et une comparaison
+            - Évaluation des performances des algorithmes et comparaison
             statistique des résultats
           </div>
         </div>
@@ -145,7 +165,7 @@
             <a
               href="https://github.com/arthursabre/bayesian_statistics_project"
               target="_blank"
-              >Link</a
+              >Lien</a
             >
           </div>
           <div class="description">
@@ -153,7 +173,7 @@
             données à large dimension<br />
             - Étude mathématique d'un modèle de statistique Bayésienne et
             isolation des variables pertinentes<br />
-            - Prédiction de variable à l'aide d'outils statistiques: Algorithme
+            - Prédiction de variables à l'aide d'outils statistiques : Algorithme
             de Gibbs Sampling, régression Lasso, linéaire...
           </div>
         </div>
@@ -181,28 +201,48 @@
       <section class="cv-section">
         <h2>Compétences</h2>
         <table class="skills-table">
-          <tr>
-            <td class="skill-label">Langues:</td>
-            <td>Français (langue maternelle), Anglais (C1+), Chinois (B2)</td>
-          </tr>
-          <tr>
-            <td class="skill-label">Programmation:</td>
-            <td>
-              Python (PyTorch, JAX, Keras, Scikit-learn), R, SQL, SAS, CSS, HTML
-            </td>
-          </tr>
-          <tr>
-            <td class="skill-label">Outils Techniques:</td>
-            <td>AWS, Docker, Office365, Latex</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td class="skill-label">Langues:</td>
+              <td>Français (langue maternelle), Anglais (C1+), Chinois (B2)</td>
+            </tr>
+            <tr>
+              <td class="skill-label">Programmation:</td>
+              <td>
+                Python (PyTorch, JAX, Scikit-learn, Pandas), R, SQL, HTML, CSS, JavaScript (basique)
+              </td>
+            </tr>
+            <tr>
+              <td class="skill-label">Outils Techniques:</td>
+              <td>AWS, Docker, Office365, Latex, Git, (Firebase, Supabase)</td>
+            </tr>
+          </tbody>
         </table>
       </section>
 
       <!-- Page 2 - Projets Individuels -->
-      <div class="page-break"></div>
-
       <section class="cv-section">
         <h2>Projets Individuels</h2>
+        
+        <div class="experience-item">
+          <div class="experience-header">
+            <strong>Application Web MWPLU (Plans Locaux d'Urbanisme)</strong>
+            <span class="date"> Mars 2025 - Mai 2025</span>
+          </div>
+          <div class="subtitle-italic">
+            Développement Full-Stack
+            <i class="fa fa-github"></i>
+            <a href="https://github.com/fllin1/mwplu_webapp" target="_blank">Link</a>
+          </div>
+          <div class="description">
+            - Développement d'une Single Page Application (SPA) avec Vue 3, backend Supabase et déploiement Firebase Hosting<br/>
+            - Implémentation complète avec gestion des sessions, Row Level Security (RLS) et intégration CAPTCHA Turnstile<br/>
+            - Intégration Google Analytics 4 avec événements personnalisés, respect GDPR et politique de confidentialité<br/>
+            - Composants Vue réactifs pour la sélection hiérarchique de données, système de commentaires et notation en temps réel<br/>
+            - Gestion de données géospatiales complexes avec API Supabase, Edge Functions et stockage sécurisé de documents<br/>
+            - OCR et synthèse de centaines de pages de documents d'urbanisme via Python, Mistral API et Google AI<br/>
+          </div>
+        </div>
 
         <div class="experience-item">
           <div class="experience-header">
@@ -210,12 +250,12 @@
             <span class="date">Juillet 2024</span>
           </div>
           <div class="subtitle-italic">
-            Projet personnel en Machine Learning
+            Machine Learning
             <i class="fa fa-github"></i>
             <a
               href="https://github.com/fllin1/classification-online-shoppers"
               target="_blank"
-              >Link</a
+              >Lien</a
             >
           </div>
           <div class="description">
@@ -224,7 +264,7 @@
             - Implémentation d'algorithmes de classification supervisée afin de
             prédire le comportement d'achat<br />
             - Implémentation de métriques adéquates à des données
-            déséquilibrées(précision, rappel et courbe ROC)<br />
+            déséquilibrées (précision, rappel et courbe ROC)<br />
             - Analyse approfondie des résultats et optimisation des
             hyperparamètres pour améliorer la prédiction
           </div>
@@ -233,13 +273,13 @@
         <div class="experience-item">
           <div class="experience-header">
             <strong>Prédiction du Genre à partir de Données Textuelles</strong>
-            <span class="date">Février 2024</span>
+            <span class="date">Février 2024 - Mars 2024</span>
           </div>
           <div class="subtitle-italic">
             Projet académique en NLP
             <i class="fa fa-github"></i>
             <a href="https://github.com/fllin1/nlp_project" target="_blank"
-              >Link</a
+              >Lien</a
             >
           </div>
           <div class="description">
@@ -260,15 +300,15 @@
             <span class="date">Septembre 2023</span>
           </div>
           <div class="subtitle-italic">
-            Projet autonome
+            Algorithme Minimax
             <i class="fa fa-github"></i>
             <a href="https://github.com/fllin1/chess_bot" target="_blank"
-              >Link</a
+              >Lien</a
             >
           </div>
           <div class="description">
             - Implémentation de l'algorithme Minimax pour la prise de décisions
-            stratégiques dans une partie d'échec<br />
+            stratégiques dans une partie d'échecs<br />
             - Développement d'une fonction d'évaluation basique permettant
             d'estimer la qualité des positions de jeu
           </div>
@@ -297,7 +337,7 @@
 }
 
 .cv-page {
-  padding: 10mm 20mm 10mm 10mm;
+  padding: 10mm 10mm 10mm 10mm;
   background: white;
   min-height: 297mm;
 }
@@ -355,11 +395,15 @@
   margin: 10px 0 5px 0;
   border-bottom: 1px solid #000;
   padding-bottom: 2px;
+  page-break-after: avoid; /* Empêche la coupure juste après un titre */
+  break-after: avoid;
 }
 
 /* Experience items */
 .experience-item {
   margin-bottom: 10px;
+  page-break-inside: avoid; /* Empêche la coupure à l'intérieur */
+  break-inside: avoid; /* Pour les navigateurs modernes */
 }
 
 .experience-header {
@@ -371,6 +415,8 @@
 
 .experience-header strong {
   font-weight: bold;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .location {
@@ -404,6 +450,8 @@
   margin: 3px 0;
   font-size: 10.5pt;
   line-height: 1.4;
+  orphans: 1; /* Minimum 1 ligne en bas de page */
+  widows: 1;  /* Minimum 1 ligne en haut de page */
 }
 
 /* Skills table */
